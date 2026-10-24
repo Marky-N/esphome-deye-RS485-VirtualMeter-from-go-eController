@@ -31,21 +31,21 @@ It is especially helpful if your inverter is mounted away from the grid feed lin
 
 ## go-e Controller mapping
 * **CCP:**
-*0 = Home Power
+*  0 = Home Power
 *  1 = Grid Power
-* 2 = Car Power
-* 4 = Solar Power
+*  2 = Car Power
+*  4 = Solar Power
 * **CEC:**
-* [1][0] = Grid Import Energy
-* [1][1] = Grid Export Energy
+*  [1][0] = Grid Import Energy
+*  [1][1] = Grid Export Energy
 * **USV:**
-* u1 = L1 Voltage
-* u2 = L2 Voltage
-* u3 = L3 Voltage
+*  u1 = L1 Voltage
+*  u2 = L2 Voltage
+*  u3 = L3 Voltage
 * **ISV:**
-* [0] = L1 Measurements
-* [1] = L2 Measurements
-* [2] = L3 Measurements
+*  [0] = L1 Measurements
+*  [1] = L2 Measurements
+*  [2] = L3 Measurements
 
 ## Installation
 1. Things are quite a bit easier, if you have go-e Controller already connected to a HomeAssistant and receiving MQTT.
