@@ -31,8 +31,8 @@ It is especially helpful if your inverter is mounted away from the grid feed lin
 
 ## go-e Controller mapping
 * **CCP:**
-* 0 = Home Power
-* 1 = Grid Power
+0 = Home Power
+  1 = Grid Power
 * 2 = Car Power
 * 4 = Solar Power
 * **CEC:**
