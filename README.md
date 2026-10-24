@@ -18,7 +18,6 @@ This allows the Deye inverter to perform rapid "Zero Export" throttling without 
 * L1/L2/L3 Voltage
 * L1/L2/L3 Current
 * L1/L2/L3 Power
-* Frequency is not available from the go-e Controller MQTT topics. It may optionally be obtained from another source, such as a go-e Charger MQTT topic.
   
 ## Why this is needed
 Deye inverters expect Modbus RTU communication over RS485 from an Eastron SDM630 meter (Slave ID 1). This ESP32 acts as a Modbus server, intercepting the Deye's requests and instantly replying with live voltage, current, power, frequency, import energy and export energy values obtained from MQTT topics published by the go-e Controller.
